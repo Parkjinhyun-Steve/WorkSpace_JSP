@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$("button1").click(function(){
+    			$(".container").remove();
+    		});
+    	});
+    	
+    	$(document).ready(function(){
+    		$("button2").click(functon(){
+    			$(".container").empty();
+    		});
+    	});
+    	
+    </script>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<button id="button1">remove()</button>
+    <button id="button2">empty()</button><br />
+    <div class="container">
+        <p class="hello">Hello</p>
+        <p class="goodbye">Goodbye</p>
+    </div>
+    <br>
+
+</body>
+</html>

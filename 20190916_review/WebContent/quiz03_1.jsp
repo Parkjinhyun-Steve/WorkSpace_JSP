@@ -18,7 +18,7 @@
 
 	<%if(login.equals("fail")) {%>
 	
-	<form action="quiz3_2.jsp" method="get">
+	<form action="quiz03_2.jsp" method="get">
 		
 	ID : <input type="text" name="id"> <br>
 	PW : <input type="password" name="pw"> <br><br>

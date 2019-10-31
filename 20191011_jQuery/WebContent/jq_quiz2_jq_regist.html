@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <script>    	
+    	$(document).ready(function(){  // 문서 로딩 이후 실행
+    		
+    		var admin="admin";    	
+    		
+    		$("#id").focus(function() {
+    			$(this).css("background-color", "yellow")    			
+    		});
+    		$("#id").blur(function() {
+    			$(this).css("background-color", "white")    			
+    		});
+    	
+    		
+    		$("#pw").focus(function() {
+    			$(this).css("background-color", "red")    			
+    		});
+    		$("#pw").blur(function() {
+    			$(this).css("background-color", "white")    			
+    		});
+    		
+    		
+    		$("button").click(function(){
+    			if (($("#id").val()) == admin)
+    				alert("허용되지 않는 아이디 입니다");
+    			else
+    				alert("가입을 축하드립니다");    			
+    		});
+    		
+    	});
+
+    	</script>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>	
+	
+	<h1> 회원가입 </h1>
+	
+	id : <input type="text" id="id" name="id"> <br>
+	pw : <input type="password" id="pw" name="pw"> <br><br>
+		
+    <button> 가입 </button>
+    
+    
+
+</body>
+</html>

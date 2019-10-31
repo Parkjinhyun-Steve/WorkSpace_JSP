@@ -10,7 +10,7 @@
 
 	홀수 짝수 판단 <br>
 	
-	<form action="quiz6_2.jsp">
+	<form action="quiz06_2.jsp">
 		<input type="text" name="num">
 		<input type="submit" value="확인">
 	</form>

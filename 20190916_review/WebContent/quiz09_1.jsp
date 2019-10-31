@@ -24,7 +24,7 @@
 
 	구구단 테스트
 	
-	<form action="quiz9_2.jsp">
+	<form action="quiz09_2.jsp">
 	
 	<%=c %> X <%=d %> = <input type="number" name="num"> <br>
 	<input type="hidden" name="c" value=<%=c %>>

@@ -8,7 +8,7 @@
 </head>
 <body>
 		
-	<form action="quiz7_2.jsp">
+	<form action="quiz07_2.jsp">
 	
 	<center><h3 style="color:red">검색엔진 0.1 <br></h3>
 		<input type="text" name="search" style="width:600px">

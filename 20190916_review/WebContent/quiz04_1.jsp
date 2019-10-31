@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="quiz4_2.jsp">
+	<form action="quiz04_2.jsp">
 	
 	설문 조사 <br><br>
 	1번. <input type="radio" name="num1" value="1" >1 <input type="radio" name="num1" value="2" >2 <input type="radio" name="num1" value="3" >3 <input type="radio" name="num1" value="4">4 <br>

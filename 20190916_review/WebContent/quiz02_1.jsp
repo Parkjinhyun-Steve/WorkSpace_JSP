@@ -9,7 +9,7 @@
 <body>
 
 	
-	<form action="quiz2_2.jsp">
+	<form action="quiz02_2.jsp">
 	
 	시작부터 끝 숫자까지 더해주세요 <br><br>
 	

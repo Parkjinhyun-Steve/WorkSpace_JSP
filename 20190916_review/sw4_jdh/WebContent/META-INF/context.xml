@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/sampledb"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="system"
+	password="hrdkorea"
+	driverClassName="org.mariadb.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" 
+	url="jdbc:mariadb://192.168.0.149:3307/sampledb"
+	maxTotal="500"
+	maxIdle="100"/>
+	
+</Context>

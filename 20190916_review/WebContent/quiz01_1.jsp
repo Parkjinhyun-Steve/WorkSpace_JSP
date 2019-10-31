@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="quiz1_2.jsp" method="post">
+	<form action="quiz01_2.jsp" method="post">
 
 	<input type="text" name="text1" value="초기값"> + <input type="text" name="text2"> <br><br>	
 	<input type="submit" value="합쳐라">

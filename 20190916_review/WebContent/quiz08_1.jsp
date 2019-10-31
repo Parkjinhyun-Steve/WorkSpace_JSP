@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="quiz8_2.jsp">
+	<form action="quiz08_2.jsp">
 	
 	물건 값 : <input type="text" name="price"> <br>
 	받은 돈 : <input type="text" name="money"> <br> <br>

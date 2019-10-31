@@ -10,7 +10,7 @@
 
 	설문조사 문항수 : <br>
 	
-	<form action="quiz5_2.jsp">	
+	<form action="quiz05_2.jsp">	
 		<input type="text" name="count"> <br><br>
 		<input type="submit" value="전송"> <br>		
 	</form>

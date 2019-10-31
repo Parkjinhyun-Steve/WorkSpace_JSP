@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+	
+	<script>
+	
+    $(document).ready(function () {
+        $("button").click(function () {
+        	$("#sum").text(parseInt($("#num1").val()) + parseInt($("#num2").val()));
+        	
+        });
+    });  
+    
+	</script>
+	
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>	
+	
+	<input type="text" id="num1"> + <input type="text" id="num2"> = <em id="sum"> </em> <br>
+		
+    <button> 계산 </button>
+
+
+
+</body>
+</html>
